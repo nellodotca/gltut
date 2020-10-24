@@ -12,8 +12,8 @@
 
 GLuint theProgram;
 
-GLuint offsetUniform;
-GLuint perspectiveMatrixUnif;
+GLint offsetUniform;
+GLint perspectiveMatrixUnif;
 
 float perspectiveMatrix[16];
 const float fFrustumScale = 1.0f;

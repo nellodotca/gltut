@@ -12,8 +12,8 @@
 
 GLuint theProgram;
 
-GLuint offsetUniform;
-GLuint perspectiveMatrixUnif;
+GLint offsetUniform;
+GLint perspectiveMatrixUnif;
 
 void InitializeProgram()
 {

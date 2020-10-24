@@ -11,10 +11,10 @@
 
 GLuint theProgram;
 
-GLuint offsetUniform;
+GLint offsetUniform;
 
-GLuint frustumScaleUnif;
-GLuint zNearUnif, zFarUnif;
+GLint frustumScaleUnif;
+GLint zNearUnif, zFarUnif;
 
 void InitializeProgram()
 {

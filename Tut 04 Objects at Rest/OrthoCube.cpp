@@ -12,7 +12,7 @@
 
 GLuint theProgram;
 
-GLuint offsetUniform;
+GLint offsetUniform;
 
 void InitializeProgram()
 {
