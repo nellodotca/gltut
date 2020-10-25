@@ -18,8 +18,8 @@
 
 GLuint theProgram;
 
-GLuint offsetUniform;
-GLuint perspectiveMatrixUnif;
+GLint offsetUniform;
+GLint perspectiveMatrixUnif;
 
 float perspectiveMatrix[16];
 const float fFrustumScale = 1.0f;
@@ -86,7 +86,7 @@ const float vertexData[] = {
 	RED_COLOR,
 };
 
-const GLshort indexData[] =
+const GLushort indexData[] =
 {
 	0, 1, 3,
 	1, 2, 3,
